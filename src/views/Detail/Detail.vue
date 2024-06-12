@@ -11,7 +11,7 @@
         </van-tabbar>
     </div>
 </template>
-  
+
 <script setup>
 import { useRoute } from 'vue-router';
 import { ref, onMounted, onUnmounted, nextTick } from 'vue';
@@ -120,7 +120,7 @@ function toggleFavorite() {
     }
 }
 </script>
-  
+
 <!-- <style lang="scss">
 .detail-box {
     .van-nav-bar {
@@ -170,9 +170,10 @@ function toggleFavorite() {
 
 <style lang="scss">
 .detail-box {
+
     // 顶部大图
     .img-place-holder {
-        img{
+        img {
             border-radius: 8px;
         }
     }
@@ -180,21 +181,24 @@ function toggleFavorite() {
     // 用户
     .meta {
         margin-top: 150px;
+
         .avatar {
             width: 100px;
             height: 100px;
             margin: 10px 10px;
             border-radius: 50%;
         }
+
         .author {
             color: grey;
         }
-        .bio{
+
+        .bio {
             color: #fff;
         }
     }
 
-    .content{
+    .content {
         margin-top: 100px;
     }
 
